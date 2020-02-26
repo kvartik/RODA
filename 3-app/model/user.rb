@@ -16,8 +16,9 @@ class User < Sequel::Model
      @user = User.new(login: @login, password: @password )
       if @user.valid?
         @user.save
+        # @user 'CREATE'
       else
-        #NOT CREATE
+        # 'NOT CREATE'
      end
     end
 

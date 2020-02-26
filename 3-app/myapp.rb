@@ -21,6 +21,7 @@ DB = Sequel.connect(adapter: "postgres", database: database, host: "127.0.0.1", 
     r.root do
       "HELLO!"
     end
+    r.
 
 
 
