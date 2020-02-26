@@ -3,6 +3,10 @@ GEM
   specs:
     pg (0.18.4)
     rack (2.2.2)
+    rack-protection (1.5.5)
+      rack
+    rack_csrf (2.5.0)
+      rack (>= 1.1.0)
     roda (2.1.0)
       rack
     sequel (4.21.0)
@@ -12,6 +16,8 @@ PLATFORMS
 
 DEPENDENCIES
   pg (~> 0.18.1)
+  rack-protection (~> 1.5.3)
+  rack_csrf (~> 2.5.0)
   roda (~> 2.1.0)
   sequel (~> 4.21.0)
 
