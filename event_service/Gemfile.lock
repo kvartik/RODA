@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     pg (0.18.4)
-    rack (2.2.2)
+    rack (3.0.4.1)
     roda (2.1.0)
       rack
     sequel (4.21.0)
