@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     pg (0.18.4)
-    rack (2.2.2)
+    rack (3.0.7)
     rack-protection (1.5.5)
       rack
     rack_csrf (2.5.0)
